@@ -2,7 +2,7 @@
 ## Human Pose Estimation 
 
 Create a visualization on the basis of the dataset of excersise movement.
-Here, dataset is the collection of points that is been collected with the help of the blasepoint, posenet etc.
+Here, dataset is the collection of points that is been collected with the help of the blazepose, posenet etc.
 
 
 ## Installation
@@ -69,7 +69,8 @@ Keypoints are -
 - As the image created we create the short animation(gif) with the ImageIo and integrate it with front-end
 - Now we delete all the images that are created while plotting the graph
 
-## Refrences
-https://towardsdatascience.com/basics-of-gifs-with-pythons-matplotlib-54dd544b6f30
-
+## References
+Gif-Creation : https://towardsdatascience.com/basics-of-gifs-with-pythons-matplotlib-54dd544b6f30
+Posenet : https://github.com/tensorflow/tfjs-models/tree/master/posenet
+Blazepose : https://medium.com/axinc-ai/blazepose-a-3d-pose-estimation-model-d8689d06b7c4
 
