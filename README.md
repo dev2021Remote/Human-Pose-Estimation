@@ -71,6 +71,8 @@ Keypoints are -
 
 ## References
 Gif-Creation : https://towardsdatascience.com/basics-of-gifs-with-pythons-matplotlib-54dd544b6f30
+
 Posenet : https://github.com/tensorflow/tfjs-models/tree/master/posenet
+
 Blazepose : https://medium.com/axinc-ai/blazepose-a-3d-pose-estimation-model-d8689d06b7c4
 
