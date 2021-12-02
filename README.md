@@ -70,7 +70,7 @@ Keypoints are -
 - Now we delete all the images that are created while plotting the graph
 
 ## References
-Gif-Creation : https://towardsdatascience.com/basics-of-gifs-with-pythons-matplotlib-54dd544b6f30
+GIF-Creation : https://towardsdatascience.com/basics-of-gifs-with-pythons-matplotlib-54dd544b6f30
 
 Posenet : https://github.com/tensorflow/tfjs-models/tree/master/posenet
 
