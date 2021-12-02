@@ -1,4 +1,6 @@
-from merge_dataset import mergeFiles
+import sys
+sys.path.insert(0,'..')
+import merge_dataset
 import os, glob
 from flask import  Flask, render_template, request, redirect, url_for
 import matplotlib
@@ -9,13 +11,12 @@ from mpl_toolkits import mplot3d
 import pandas as pd
 import imageio
 
-
 # Matplot Configuration
 fig = plt.figure(figsize=(6,6))
 ax = fig.add_subplot(111,projection='3d')
 
 #Function to merge both the dataset files
-mergeFiles()
+merge_dataset.mergeFiles('../')
 
 
 #dataset name
@@ -157,7 +158,9 @@ def readAndPlot(index):
 @app.route('/')
 def initial():
     global error,selected_excersise
-    return render_template('index.html',excersises=excersises,total_no_of_excersise=len(excersises),message=error, selected_excersise=selected_excersise)
+    total = len(excersises)
+    print('Total Number of excersise:',total)
+    return render_template('index.html',excersises=excersises,total_no_of_excersise=total,message=error, selected_excersise=selected_excersise)
 
 @app.route('/excersiseVisual',methods=['GET', 'POST'])
 def showVisualisation():
