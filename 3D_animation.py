@@ -57,8 +57,8 @@ df = pd.read_csv(filename,usecols=arr,squeeze=True)
 
 all_points =[]
 for item in arr:
-
-    tes =(df[item][1].split(','))
+    # tes =(df[item][Index of the Excersise].split(','))
+    tes =(df[item][0].split(','))
 
     total_val =(len(tes))
     val =[]
