@@ -1,9 +1,5 @@
 
 def mergeFiles():
-	# Python program to
-	# demonstrate merging
-	# of two files
-
 	data = data2 = ""
 
 	# Reading data from file1
