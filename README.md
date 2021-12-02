@@ -9,7 +9,7 @@ Here, dataset is the collection of points that is been collected with the help o
 
 
 ```bash
-  pip install -m requirements.txt
+  pip install -r requirements.txt
 ```
 
 ## Running Application
