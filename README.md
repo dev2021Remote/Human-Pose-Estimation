@@ -69,6 +69,7 @@ Keypoints are -
 - As the image created we create the short animation(gif) with the ImageIo and integrate it with front-end
 - Now we delete all the images that are created while plotting the graph
 
-
+## Refrences
+https://towardsdatascience.com/basics-of-gifs-with-pythons-matplotlib-54dd544b6f30
 
 
