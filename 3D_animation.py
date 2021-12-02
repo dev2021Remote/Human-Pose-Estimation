@@ -1,3 +1,4 @@
+from merge_dataset import mergeFiles
 import matplotlib
 import numpy as np
 from matplotlib import pyplot as plt
@@ -12,6 +13,8 @@ plt.rcParams['animation.html'] = 'jshtml'
 fig = plt.figure(figsize=(10,10))
 ax = fig.add_subplot(111,projection='3d')
 
+# Merging dataset files into one
+mergeFiles()
 
 # Connection between keypoints
 EDGES = {
